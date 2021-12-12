@@ -1,0 +1,109 @@
+#headdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#nav {
+    margin: auto 40px auto 0;
+    padding: 40px 0;
+}
+
+#nav a {
+    display: inline;
+    font-size: 1.5rem;
+}
+
+
+/* Main1 strt */
+
+#main1 {
+    display: flex;
+}
+
+#main1 #laptop-image {
+    width: 50%;
+    height: auto;
+    
+}
+
+#text1 {
+    margin: auto 10px;
+}
+
+#heading {
+    font-size: 2rem;
+}
+
+
+/* About me section */
+
+#card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    margin: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#card:hover {
+    transform: scale(1.1);
+}
+
+
+/* Archive section */
+
+#arc-container > img {
+    width: 15%;
+    height: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin: auto 30px;
+}
+
+/* Blog post start */
+
+#thumb {
+    width: 200px;
+}
+
+#card1 {
+    display: flex;
+    width: 65%;
+}
+
+/* Contact */
+
+#contact-me h1 {
+    margin-bottom: 50px;
+}
+
+#form {
+    width: 500px;
+    margin: 30px auto 0 auto;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+footer > * {
+    margin: auto 150px;
+}
+
